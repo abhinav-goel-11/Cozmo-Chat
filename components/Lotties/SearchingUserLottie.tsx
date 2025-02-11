@@ -1,3 +1,5 @@
+"use client";
+
 import Lottie from "lottie-react";
 import SearchUser from "../../assets/lottie/search-new-lottie.json";
 
