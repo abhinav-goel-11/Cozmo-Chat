@@ -59,7 +59,7 @@ export default function ChatLandingScreen({
           )}
         </button>
 
-        <small className="text-gray font-medium text-[11px] mt-4 text-center">
+        {/* <small className="text-gray font-medium text-[11px] mt-4 text-center">
           By continuing, you agree with our
           <br />
           <Link
@@ -77,7 +77,7 @@ export default function ChatLandingScreen({
           >
             Privacy Policy
           </Link>
-        </small>
+        </small> */}
       </main>
     </>
   );

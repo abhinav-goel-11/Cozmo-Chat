@@ -472,7 +472,7 @@ const QuickChat = () => {
     setSearching((prev) => ({ ...prev, searching: false }));
   };
   return (
-    <div className="min-h-[100svh] border-side relative">
+    <div className="min-h-[100svh] border-side relative w-[calc(min(100vw,600px))] mx-auto">
       {!dataChannelConnected && (
         <ChatLandingScreen
           handleStartChat={handleStartChat}
