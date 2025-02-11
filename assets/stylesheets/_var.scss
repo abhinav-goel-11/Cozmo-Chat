@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "BR-Firma";
+  src: url("../fonts/BR-Firma-Regular.woff") format("woff"),
+    url("../fonts/BR-Firma-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "BR-Firma";
+  src: url("../fonts/BR-Firma-Medium.woff") format("woff"),
+    url("../fonts/BR-Firma-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "BR-Firma";
+  src: url("../fonts/BR-Firma-SemiBold.woff") format("woff"),
+    url("../fonts/BR-Firma-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+$font: "BR-Firma", sans-serif;
+$primary-color: #d5663f;
+$heading-color: #eeeeee;
+$text-color: #c7c7c7;
+$bg-color: #13151f;

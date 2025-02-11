@@ -1,0 +1,29 @@
+html,
+body {
+  font-size: 16px;
+  background: $bg-color;
+  color: #fafafa;
+  line-height: 1.4;
+  overflow-x: hidden;
+  font-family: $font;
+  scroll-behavior: smooth;
+  scroll-margin: 150px;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.5rem;
+  // line-height: 1.4;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.8;
+}

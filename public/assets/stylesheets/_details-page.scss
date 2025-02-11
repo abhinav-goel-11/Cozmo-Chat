@@ -1,0 +1,122 @@
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-margin: 30px;
+}
+
+.page-details {
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  // .about-container {
+  //   max-width: 800px;
+  //   margin: 0 auto;
+  //   padding: 0 1rem;
+  // }
+  padding: 6rem 0 8rem 0;
+  background: linear-gradient(to bottom, #512920, #13151f 450px);
+
+  .page-header {
+    height: 150px;
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 600;
+      color: $heading-color;
+    }
+
+    p {
+      color: #fafafa;
+      font-size: 14px;
+      opacity: 0.5;
+    }
+  }
+
+  .details {
+    margin-top: 2.3rem;
+
+    p {
+      color: $text-color;
+      // line-height: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      color: $heading-color;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      color: $heading-color;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    ol {
+      list-style-type: lower-latin;
+    }
+
+    ul {
+      list-style-type: circle;
+    }
+
+    ol,
+    ul {
+      margin-left: 1.2rem;
+      line-height: 1.5;
+      color: $text-color;
+      margin-bottom: 2rem;
+
+      li {
+        margin-bottom: 0.4rem;
+      }
+    }
+
+    .sub-details p {
+      margin-left: 1.3rem;
+    }
+
+    p {
+      strong {
+        color: $heading-color;
+        font-weight: bold;
+        margin-right: 0.5rem;
+      }
+    }
+
+    a:link,
+    a:visited,
+    a:active {
+      color: $primary-color;
+    }
+
+    a:hover {
+      color: $heading-color;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page-details {
+    .page-header {
+      height: 85px;
+      justify-content: center;
+      flex-direction: column;
+
+      h2 {
+        font-size: 36px;
+        width: 100%;
+        text-align: center;
+      }
+
+      p {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
