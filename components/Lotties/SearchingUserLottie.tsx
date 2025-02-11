@@ -1,7 +1,8 @@
-"use client";
-
-import Lottie from "lottie-react";
+const Lottie = dynamic(() => import("lottie-react"), {
+  ssr: false, // Disable server-side rendering
+});
 import SearchUser from "../../assets/lottie/search-new-lottie.json";
+import dynamic from "next/dynamic";
 
 type Props = {};
 
